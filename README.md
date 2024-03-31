@@ -20,3 +20,5 @@ OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gi
 
 6 - Configuração do tsconfig.json e criação da pasta src
 
+7 - Adicionando comando de desenvolvimento (dev) com porta de entrada em app.ts
+
