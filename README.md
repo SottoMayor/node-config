@@ -14,3 +14,7 @@ OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gi
 
 4 - Instalando Jest e sua tipagem como depedência de DEV
     npm install --save-dev jest ts-jest @types/jest
+
+5 - Instalando tipagem do node e ferramenta de monitoração de desenvolvimento, em DEV
+     npm install --save-dev @types/node ts-node-dev
+
