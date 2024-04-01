@@ -26,3 +26,7 @@ OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gi
     npx ts-jest config:init
 
 9 - Adicionando comando de transpilação (build)
+
+10 - Instalando o query build Knex e o driver do Postgres
+    npm install --save knex pg
+
