@@ -1,48 +1,112 @@
-# node-config
-Configuração de uma API em Nodejs. Typescript, Jest, Knex e Express
+# Configuração de API Node.js com Typescript, Jest, Knex e Express
 
-OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gitignore
+Este é um guia passo a passo para configurar uma API em Node.js com Typescript, Jest, Knex e Express.
 
-1 - Inicializando o npm
-    npm init --y
+## Pré-requisitos
 
-2 - Instalando o TS como dependência de DEV
-    npm install --save-dev typescript
+Antes de começar, inicialize o git na máquina e coloque o node_modules no .gitignore. É claro, certifique-se de ter o Node.js instalado em sua máquina. 
 
-3 - Criando arquivo de configuração do TS
-    npx tsc --init
+## 1. Inicializando o npm
 
-4 - Instalando Jest e sua tipagem como depedência de DEV
-    npm install --save-dev jest ts-jest @types/jest
+Execute o seguinte comando para inicializar o npm em seu projeto:
 
-5 - Instalando tipagem do node e ferramenta de monitoração de desenvolvimento, em DEV
-     npm install --save-dev @types/node ts-node-dev
+```bash
+npm init --y
+```
 
-6 - Configuração do tsconfig.json e criação da pasta src
+## 2. Instalando Typescript como dependência de desenvolvimento
 
-7 - Adicionando comando de desenvolvimento (dev) com porta de entrada em app.ts
+Instale o Typescript executando o seguinte comando:
 
-8 - Configurando o Jest e adicionando comando de testes (test)
-    npx ts-jest config:init
+```bash
+npm install --save-dev typescript
+```
 
-9 - Adicionando comando de transpilação (build)
+## 3. Criando arquivo de configuração do Typescript
 
-10 - Instalando o query build Knex e o driver do Postgres
-    npm install --save knex pg
+Crie um arquivo de configuração do Typescript executando o seguinte comando:
 
-11 - Adicionando comando de criação de migration (migrate:make)
+```bash
+npx tsc --init
+```
 
-12 - Adicionando comando para subir e descer migrations (migrate:up e migrate:down)
+## 4. Instalando Jest e suas tipagens como dependências de desenvolvimento
 
-13 - Instalando express e suas depenências
-    npm install express
-    npm install --save-dev @types/express
+Instale o Jest e suas tipagens executando o seguinte comando:
 
-14 - Configurações para ponto de partida com o framework express
+```bash
+npm install --save-dev jest ts-jest @types/jest
+```
 
-15 - Instalando dotenv
-    npm install dotenv
+## 5. Instalando tipagens do Node e ferramenta de monitoração de desenvolvimento
 
-16 - Criando arquivo .env e aplicando dotenv no knexfile.js e no app.ts
+Instale as tipagens do Node e a ferramenta de monitoração de desenvolvimento executando o seguinte comando:
 
-17 - Criando arquivo de conexão com o Knex. Necessário para performar queries
+```bash
+npm install --save-dev @types/node ts-node-dev
+```
+
+## 6. Configuração do tsconfig.json e criação da pasta src
+
+Configure o `tsconfig.json` e crie a pasta `src` para seus arquivos TypeScript.
+
+## 7. Adicionando comando de desenvolvimento
+
+Adicione o comando de desenvolvimento com a porta de entrada em `app.ts`.
+
+## 8. Configurando Jest e adicionando comando de testes
+
+Configure o Jest e adicione o comando de testes executando o seguinte comando:
+
+```bash
+npx ts-jest config:init
+```
+
+## 9. Adicionando comando de transpilação
+
+Adicione o comando de transpilação (build).
+
+## 10. Instalando Knex e o driver do Postgres
+
+Instale o Knex e o driver do Postgres executando o seguinte comando:
+
+```bash
+npm install --save knex pg
+```
+
+## 11. Adicionando comando de criação de migration
+
+Adicione o comando de criação de migration (migrate:make).
+
+## 12. Adicionando comando para subir e descer migrations
+
+Adicione os comandos para subir e descer migrations (migrate:up e migrate:down).
+
+## 13. Instalando Express e sua tipagem
+
+Instale o Express e sua tipagem executando os seguintes comandos:
+
+```bash
+npm install express
+npm install --save-dev @types/express
+```
+
+## 14. Configurações para ponto de partida com o framework Express
+
+Configure o ponto de partida com o framework Express.
+
+## 15. Instalando dotenv
+
+Instale o dotenv executando o seguinte comando:
+
+```bash
+npm install dotenv
+```
+
+## 16. Criando arquivo .env e aplicando dotenv
+
+Crie um arquivo `.env` e aplique o dotenv no `knexfile.js` e no `app.ts`.
+
+## 17. Criando arquivo de conexão com o Knex
+
+Crie um arquivo de conexão com o Knex. Este arquivo será necessário para executar queries.
