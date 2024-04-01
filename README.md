@@ -24,3 +24,5 @@ OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gi
 
 8 - Configurando o Jest e adicionando comando de testes (test)
     npx ts-jest config:init
+
+9 - Adicionando comando de transpilação (build)
