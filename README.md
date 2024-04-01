@@ -31,3 +31,5 @@ OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gi
     npm install --save knex pg
 
 11 - Adicionando comando de criação de migration (migrate:make)
+
+12 - Adicionando comando para subir e descer migrations (migrate:up e migrate:down)
