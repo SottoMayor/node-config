@@ -22,3 +22,5 @@ OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gi
 
 7 - Adicionando comando de desenvolvimento (dev) com porta de entrada em app.ts
 
+8 - Configurando o Jest e adicionando comando de testes (test)
+    npx ts-jest config:init
