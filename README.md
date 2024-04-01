@@ -30,3 +30,4 @@ OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gi
 10 - Instalando o query build Knex e o driver do Postgres
     npm install --save knex pg
 
+11 - Adicionando comando de criação de migration (migrate:make)
