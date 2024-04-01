@@ -45,4 +45,4 @@ OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gi
 
 16 - Criando arquivo .env e aplicando dotenv no knexfile.js e no app.ts
 
-    
+17 - Criando arquivo de conexão com o Knex. Necessário para performar queries
