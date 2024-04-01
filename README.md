@@ -40,4 +40,9 @@ OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gi
 
 14 - Configurações para ponto de partida com o framework express
 
+15 - Instalando dotenv
+    npm install dotenv
+
+16 - Criando arquivo .env e aplicando dotenv no knexfile.js e no app.ts
+
     

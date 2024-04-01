@@ -1,11 +1,14 @@
+const dotenv = require('dotenv');
+dotenv.config()
+
 module.exports = {
-    client: 'pg',
+    client: process.env.DB_CLIENT,
     connection: {
-      host: '000.000.000',
-      port: '5432',
-      user: 'postgres',
-      password: '123456',
-      database: 'postgres',
+      host: process.env.DB_HOST,
+    //   port: process.env.DB_PORT,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASSWORD,
+      database: process.env.DB_NAME,
     },
     migrations: {
       tableName: 'knex_migrations',
