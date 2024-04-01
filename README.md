@@ -34,3 +34,10 @@ OBS: Antes de tudo inicializar o git na máquina e colocar o node_modules no .gi
 
 12 - Adicionando comando para subir e descer migrations (migrate:up e migrate:down)
 
+13 - Instalando express e suas depenências
+    npm install express
+    npm install --save-dev @types/express
+
+14 - Configurações para ponto de partida com o framework express
+
+    
